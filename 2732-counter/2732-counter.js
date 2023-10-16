@@ -5,9 +5,7 @@
 var createCounter = function(n) {
     let counter = n
     return function() {
-        const currentValue = counter
-        counter++
-        return currentValue
+        return counter++
     };
 };
 
