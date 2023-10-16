@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/counter">2732. Counter</a></h2><h3>Easy</h3><hr><p>Given an integer&nbsp;<code>n</code>,&nbsp;return a <code>counter</code> function. This <code>counter</code> function initially returns&nbsp;<code>n</code>&nbsp;and then returns 1 more than the previous value every subsequent time it is called (<code>n</code>, <code>n + 1</code>, <code>n + 2</code>, etc).</p>
+<h2><a href="https://leetcode.com/problems/counter/?envType=study-plan-v2&envId=30-days-of-javascript">2732. Counter</a></h2><h3>Easy</h3><hr><p>Given an integer&nbsp;<code>n</code>,&nbsp;return a <code>counter</code> function. This <code>counter</code> function initially returns&nbsp;<code>n</code>&nbsp;and then returns 1 more than the previous value every subsequent time it is called (<code>n</code>, <code>n + 1</code>, <code>n + 2</code>, etc).</p>
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
@@ -29,5 +29,6 @@ n = -2
 
 <ul>
 	<li><code>-1000<sup>&nbsp;</sup>&lt;= n &lt;= 1000</code></li>
-	<li><code>At most 1000 calls to counter() will be made</code></li>
+	<li><code>0 &lt;= calls.length &lt;= 1000</code></li>
+	<li><code>calls[i] === &quot;call&quot;</code></li>
 </ul>
