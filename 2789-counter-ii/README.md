@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/counter-ii">2789. Counter II</a></h2><h3>Easy</h3><hr><p>Write a function&nbsp;<code>createCounter</code>. It should accept an initial integer&nbsp;<code>init</code>. It should return an object with three functions.</p>
+<h2><a href="https://leetcode.com/problems/counter-ii/?envType=study-plan-v2&envId=30-days-of-javascript">2789. Counter II</a></h2><h3>Easy</h3><hr><p>Write a function&nbsp;<code>createCounter</code>. It should accept an initial integer&nbsp;<code>init</code>. It should return an object with three functions.</p>
 
 <p>The three functions are:</p>
 
@@ -40,5 +40,6 @@ counter.reset(); // 0
 
 <ul>
 	<li><code>-1000 &lt;= init &lt;= 1000</code></li>
-	<li><code>total calls not to exceed 1000</code></li>
+	<li><code>0 &lt;= calls.length &lt;= 1000</code></li>
+	<li><code>calls[i]</code> is one of &quot;increment&quot;, &quot;decrement&quot; and&nbsp;&quot;reset&quot;</li>
 </ul>
