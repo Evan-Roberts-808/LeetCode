@@ -6,14 +6,13 @@
  */
 var cancellable = function(fn, args, t) {
     let timeout = setTimeout(() => {
-        fn.apply(null, args)
+        fn(...args)
     }, t)
 
-    let cancelFn = function() {
+    return function() {
         clearTimeout(timeout)
     }
 
-    return cancelFn
 };
 
 /**
