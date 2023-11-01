@@ -4,11 +4,7 @@ class Solution(object):
         :type s: str
         :rtype: int
         """
-        s = s.strip()
-
-        if not s:
-            return 0
-
-        lis = list(s.split(" "))
-
-        return len(lis[-1])
+        words = s.split()
+        if words:
+            return len(words[-1])
+        return 0
