@@ -1,8 +1,13 @@
 public class Solution {
     public int RemoveElement(int[] nums, int val) {
-        List<int> numList = new List<int>(nums);
-        numList.RemoveAll(item => item == val);
-        numList.CopyTo(nums);
-        return numList.Count;
+        int slow = 0;
+        for (int fast = 0; fast < nums.Length; fast++)
+        {
+            if (nums[fast] != val)
+            {
+                nums[slow++] = nums[fast];
+            }
+        }
+        return slow;
     }
 }
