@@ -7,7 +7,6 @@ public class Solution
             return "";
         }
 
-        // Check for empty strings
         if (strs.Any(str => str.Length == 0))
         {
             return "";
