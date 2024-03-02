@@ -13,9 +13,6 @@ public class Solution {
         Array.Reverse(charArray);
         string reverseString = new string(charArray);
         
-        Console.WriteLine(polishedString);
-        Console.WriteLine(reverseString);
-        
         return polishedString == reverseString ? true : false;
     }
 }
